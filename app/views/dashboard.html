@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+            <link href="<?= base_url(); ?>css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Full-width input fields */
+        input[type=text], input[type=password], input[type=email] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        /* Set a style for all buttons */
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        /* Extra styles for the cancel button */
+        .cancelbtn {
+            padding: 14px 20px;
+            background-color: #f44336;
+        }
+
+        /* Float cancel and signup buttons and add an equal width */
+        .cancelbtn,.signupbtn {
+            float: left;
+            width: 50%;
+        }
+
+        /* Add padding to container elements */
+        .container {
+            padding: 16px;
+        }
+
+        /* Clear floats */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /* Change styles for cancel button and signup button on extra small screens */
+        @media screen and (max-width: 300px) {
+            .cancelbtn, .signupbtn {
+                width: 100%;
+            }
+        }
+    </style>
+    <body>
+        <h2>TEST SPEEDY RELE</h2>
+<!--        <nav class="navbar navbar-default">
+            <div class="container">
+                 Brand and toggle get grouped for better mobile display 
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="navbar-menu" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">XPOINT TS</a>
+                </div>
+
+                 Collect the nav links, forms, and other content for toggling 
+                <div class="collapse navbar-collapse" id="navbar-menu">
+
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Medico <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Esiti</a></li>
+                                <li><a href="#">Invio</a></li>
+                                <li><a href="#">Profilo e impostazioni</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/auth/destroy">Logout</a></li>
+
+
+                    </ul>
+                </div>
+                 /.navbar-collapse 
+            </div>
+             /.container-fluid 
+        </nav>-->
+        <form action="#" id="dashboard" name="dashboard" method="post" style="border:1px solid #ccc">
+            <div class="imgcontainer">
+                <img src="speedy.jpg"> 
+            </div>
+            <div class="container">
+                <label><b>Email</b></label>
+                <input type="email" placeholder="Inserisci Email" name="email" >
+                <label><b>Nome</b></label>
+                <input type="text" placeholder="Nome" name="firstname" >
+                <label><b>Cognome</b></label>
+                <input type="text" placeholder="Cognome" name="lastname">
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" >
+                <label><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="password-repeat" >
+<!--                <input type="checkbox" checked="checked"> Remember me-->
+                <p>Creando un account accettate le condizioni e termini<a href="#">Terms & Privacy</a>.</p>
+                <div class="clearfix">
+<!--                    <button type="submit" class="cancelbtn" formaction="/signin">Annulla</button>-->
+                    <input type="submit" value="CONFERMA"</>
+                </div>
+            </div>
+        </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
+
